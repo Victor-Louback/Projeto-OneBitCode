@@ -11,6 +11,11 @@
     --color-white: #fff;
 }
 
+*::selection{
+    background-color: var(--color-black);
+    color: var(--color-primary);
+}
+
 body {
     background: linear-gradient(90deg, #ffe7d1 0%, #fff2e6 100%);
     padding: 0 1rem;
